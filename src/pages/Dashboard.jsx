@@ -1,4 +1,5 @@
 import DashboardCard from '../components/dashboard/DashboardCard'
+import TemperatureCard from '../components/dashboard/TemperatureCard'
 
 function Dashboard() {
   return (
@@ -7,6 +8,18 @@ function Dashboard() {
       <p className="text-sm text-gray-500 mb-4">
         Os indicadores ainda não estão ligados à API.
       </p>
+
+      <div className="mb-4">
+        <TemperatureCard
+          cidade="Igarapava-SP"
+          temperatura={0}
+          umidade={0}
+          nivel="baixo"
+        />
+        <p className="text-xs text-gray-500 mt-1">
+          Valores de teste, não são dados reais.
+        </p>
+      </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         <DashboardCard
