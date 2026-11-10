@@ -17,3 +17,8 @@ export const listaStatus = [
   { valor: 'em_analise', nome: 'Em análise' },
   { valor: 'resolvido', nome: 'Resolvido' },
 ]
+export const cidadePadrao = {
+  nome: 'Igarapava-SP',
+  latitude: -20.0386,
+  longitude: -47.7475,
+}
