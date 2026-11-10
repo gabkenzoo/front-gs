@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
+import Navbar from './components/layout/Navbar'
 import Dashboard from './pages/Dashboard'
 import Mapa from './pages/Mapa'
 import Ocorrencias from './pages/Ocorrencias'
@@ -7,6 +8,7 @@ import Informacoes from './pages/Informacoes'
 function App() {
   return (
     <div className="min-h-screen bg-gray-100">
+      <Navbar />
       <Routes>
         <Route path="/" element={<Dashboard />} />
         <Route path="/mapa" element={<Mapa />} />
