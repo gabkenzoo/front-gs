@@ -30,7 +30,7 @@ function ReportForm({ relatoEditando, onSalvar, onCancelar }) {
     setDados({ ...dados, [evento.target.name]: evento.target.value })
   }
 
-  function enviar(evento) {
+  async function enviar(evento) {
     evento.preventDefault()
 
     const errosEncontrados = validarRelato(dados)
@@ -39,10 +39,11 @@ function ReportForm({ relatoEditando, onSalvar, onCancelar }) {
       return
     }
 
-    onSalvar(dados)
+    // onSalvar devolve true se a API salvou, e false se deu erro
+    const deuCerto = await onSalvar(dados)
 
-    // se era um relato novo, limpa o formulário
-    if (!relatoEditando) {
+    // se era um relato novo e deu certo, limpa o formulário
+    if (deuCerto && !relatoEditando) {
       setDados(formularioVazio)
     }
     setErros({})
