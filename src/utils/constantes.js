@@ -32,3 +32,21 @@ export const tiposPonto = [
   { valor: 'comercio', nome: 'Comércio parceiro' },
   { valor: 'descanso', nome: 'Local de descanso' },
 ]
+
+// cor de cada tipo de ponto no mapa
+export const coresTipo = {
+  agua: '#0284c7',
+  praca: '#15803d',
+  parque: '#65a30d',
+  biblioteca: '#7c3aed',
+  centro_comunitario: '#c2410c',
+  comercio: '#be185d',
+  descanso: '#475569',
+}
+
+// cor do círculo de risco no mapa
+export const coresNivel = {
+  baixo: '#16a34a',
+  atencao: '#eab308',
+  alto: '#ea580c',
+}
