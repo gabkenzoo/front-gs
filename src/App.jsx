@@ -4,6 +4,7 @@ import Sidebar from './components/layout/Sidebar'
 import Footer from './components/layout/Footer'
 import Dashboard from './pages/Dashboard'
 import Mapa from './pages/Mapa'
+import RotaFresca from './pages/RotaFresca'
 import Ocorrencias from './pages/Ocorrencias'
 import Informacoes from './pages/Informacoes'
 
@@ -17,6 +18,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Dashboard />} />
             <Route path="/mapa" element={<Mapa />} />
+            <Route path="/rota" element={<RotaFresca />} />
             <Route path="/ocorrencias" element={<Ocorrencias />} />
             <Route path="/informacoes" element={<Informacoes />} />
           </Routes>

@@ -5,9 +5,10 @@ function Navbar() {
   // guarda se o menu do celular está aberto (true) ou fechado (false)
   const [menuAberto, setMenuAberto] = useState(false)
 
-  const links = [
+    const links = [
     { caminho: '/', nome: 'Dashboard' },
     { caminho: '/mapa', nome: 'Mapa' },
+    { caminho: '/rota', nome: 'Rota Fresca' },
     { caminho: '/ocorrencias', nome: 'Ocorrências' },
     { caminho: '/informacoes', nome: 'Informações' },
   ]
