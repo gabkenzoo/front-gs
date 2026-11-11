@@ -174,7 +174,7 @@ Para os pontos de apoio, na página **Mapa**: clique no mapa para escolher o loc
 
 ## Deploy
 
-Link do deploy: ainda não publicado
+Link do deploy: https://front-gs-xi.vercel.app
 
 ## Repositório
 

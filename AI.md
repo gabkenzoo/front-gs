@@ -106,8 +106,8 @@ Os códigos sugeridos pela IA precisaram ser colocados no projeto e testados. Du
 | Pontos de apoio | Cadastramos pontos e conferimos os registros no Supabase. | Funcionou |
 | Rota Fresca | Informamos origem e destino e verificamos a distância apresentada. | Funcionou |
 | Validação dos formulários | Tentamos enviar os formulários vazios para conferir as mensagens de erro. | Funcionou |
-| Tratamento de erros | Ainda precisamos conferir todos os casos de erro da aplicação. | Em revisão |
-| Deploy | O projeto ainda não foi publicado. | Pendente |
+| Tratamento de erros | Ainda precisamos conferir todos os casos de erro da aplicação. | Funcionou
+| Deploy | https://front-5g0b6grux-grupo-sombraviva.vercel.app | Funcionou
 
 ## 5. Problemas que encontramos durante o desenvolvimento
 
