@@ -104,14 +104,10 @@ npm install
 
 ## Configuração do .env
 
-Copie o `.env.example` para `.env` e preencha com a URL e a chave pública (publishable/anon) do seu projeto Supabase:
+NEXT_PUBLIC_SUPABASE_URL=https://pcmqfhmlbgbdlzunotmf.supabase.co
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=sb_publishable_Ve3vAG5Ewlpp3sn5uddOtw_0Co7DZwH
 
-```
-VITE_SUPABASE_URL=
-VITE_SUPABASE_ANON_KEY=
-```
 
-O arquivo `.env` está no `.gitignore` e não deve ir para o GitHub.
 
 ## Banco de dados (Supabase)
 
@@ -178,7 +174,7 @@ Para os pontos de apoio, na página **Mapa**: clique no mapa para escolher o loc
 
 ## Deploy
 
-Link do deploy: [PREENCHER depois da publicação]
+Link do deploy: ainda não publicado
 
 ## Repositório
 
